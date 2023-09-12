@@ -1,4 +1,4 @@
-# gt-itemdb-parser
+# gt-itemsdat-parser
 Easy-to-use tool and library to parse Growtopia's items.dat file, written in Python 3.08. 
 
 ### Usage as a tool
