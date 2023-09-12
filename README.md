@@ -28,7 +28,7 @@ A mock template class would look something like this:
 ```python
 @dataclass
 class MockItem:
-	some_number: int = _Field(size=4, version=1)
+    some_number: int = _Field(size=4, version=1)
     some_encrypted_text: str = _Field(version=1, xor_key="lol")
     some_value_to_ignore: None = _Field(size=123)
     some_text_to_ignore: None = _Field()
