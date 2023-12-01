@@ -74,6 +74,8 @@ class Item:
     parent_id:      int  = _Field(size=4, version=14)
     _unknown3:      None = _Field(size=25, version=15)
     alt_sit_path:   str  = _Field(version=15)
+    _unknown4:      str  = _Field(version=16)
+
 
 def _parse_int(buffer: _SupportsRead, size: int) -> int:
     return int.from_bytes(buffer.read(size), "little")
